@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_split.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: adavitas <adavitas@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/09/15 14:58:59 by adavitas          #+#    #+#             */
+/*   Updated: 2025/09/15 15:28:27 by adavitas         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "utils.h"
 
 static int	ft_strlen(char *str)
@@ -44,7 +56,7 @@ static char	*next_word(char **s, char c)
 {
 	char	*start;
 	int		len;
-	char		*word;
+	char	*word;
 
 	while (**s == c)
 		(*s)++;

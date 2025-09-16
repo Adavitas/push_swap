@@ -1,8 +1,20 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_lib_utils.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: adavitas <adavitas@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/09/15 14:58:53 by adavitas          #+#    #+#             */
+/*   Updated: 2025/09/15 14:59:07 by adavitas         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "utils.h"
 
 int	ft_atoi(char *nptr)
 {
-	int	i;
+	int		i;
 	long	result;
 
 	i = 1;
@@ -22,7 +34,7 @@ int	ft_atoi(char *nptr)
 	}
 	result = result * i;
 	if (result < -2147483648 || result > 2147483647)
-			ft_err("Error");
+		ft_err("Error");
 	return ((int)result);
 }
 

@@ -1,37 +1,49 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_operations_vol3.c                               :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: adavitas <adavitas@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/09/15 14:58:26 by adavitas          #+#    #+#             */
+/*   Updated: 2025/09/15 14:58:28 by adavitas         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "push_swap.h"
 
 int	swap(t_list **stack)
 {
-    t_list	*first;
-    t_list	*next;
-    int		nbr;
-    int		rank;
+	t_list	*first;
+	t_list	*next;
+	int		nbr;
+	int		rank;
 
-    if (!stack || !*stack || !(*stack)->next)
-        return (0);
-    first = *stack;
-    next = first->next;
-    nbr = first->nbr;
-    rank = first->rank;
-    first->nbr = next->nbr;
-    first->rank = next->rank;
-    next->nbr = nbr;
-    next->rank = rank;
-    return (1);
+	if (!stack || !*stack || !(*stack)->next)
+		return (0);
+	first = *stack;
+	next = first->next;
+	nbr = first->nbr;
+	rank = first->rank;
+	first->nbr = next->nbr;
+	first->rank = next->rank;
+	next->nbr = nbr;
+	next->rank = rank;
+	return (1);
 }
 
-int sa(t_list **a)
+int	sa(t_list **a)
 {
-    if (!swap(a))
-        return (1);
-    ft_printf("sa\n");
-    return (0);
+	if (!swap(a))
+		return (1);
+	ft_printf("sa\n");
+	return (0);
 }
 
-int sb(t_list **b)
+int	sb(t_list **b)
 {
-    if (!swap(b))
-        return (1);
-    ft_printf("sb\n");
-    return (0);
+	if (!swap(b))
+		return (1);
+	ft_printf("sb\n");
+	return (0);
 }

@@ -53,7 +53,7 @@ The sorting strategy varies based on the stack size:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Nobunaga-Z/push_swap.git
+git clone https://github.com/Adavitas/push_swap.git
 cd push_swap
 
 # Compile the project

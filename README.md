@@ -206,8 +206,8 @@ ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker $ARG
 
 ## 👤 Author
 
-**Nobunaga-Z** (adavitas)
-- GitHub: [@Nobunaga-Z](https://github.com/Adavitas)
+**Aleksandre Davitashvili** (Adavitas)
+- GitHub: [@Adavitas](https://github.com/Adavitas)
 
 ## 📝 License
 

@@ -8,6 +8,8 @@ A sorting algorithm project that sorts a stack of integers using a limited set o
 - `push_swap`: Outputs the optimal sequence of operations to sort the stack
 - `checker`: Validates whether a given sequence of operations correctly sorts the stack
 
+![Demo](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnF1MHM1ZTNrcWRibjZ3d2FvOTJvMzg5bGM2NnB3dDh2dGpld2lwYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GjINFGTxDwHzWkoaEo/giphy.gif)
+
 ## 📋 Table of Contents
 - [Features](#-features)
 - [Algorithm](#-algorithm)

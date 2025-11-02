@@ -10,6 +10,8 @@ A sorting algorithm project that sorts a stack of integers using a limited set o
 
 ![Demo](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnF1MHM1ZTNrcWRibjZ3d2FvOTJvMzg5bGM2NnB3dDh2dGpld2lwYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GjINFGTxDwHzWkoaEo/giphy.gif)
 
+![Image](https://github.com/user-attachments/assets/96ee932f-6443-4aa4-8272-b693aece4511)
+
 ## 📋 Table of Contents
 - [Features](#-features)
 - [Algorithm](#-algorithm)

@@ -206,10 +206,11 @@ ARG="4 67 3 87 23 ..."; ./push_swap $ARG | wc -l
 ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker $ARG
 ```
 
-## 👤 Author
+## 👨‍💻 Author
 
-**Aleksandre Davitashvili** (Adavitas)
-- GitHub: [@Adavitas](https://github.com/Adavitas)
+**Aleksandre Davitashvili** (Adavitas) - *42 Student*
+
+[![GitHub](https://img.shields.io/badge/GitHub-Adavitas-181717?style=flat&logo=github)](https://github.com/Adavitas)
 
 ## 📝 License
 

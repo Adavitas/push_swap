@@ -1,16 +1,19 @@
+<div align="center">
+
 # 📚 Push_swap
 
 A sorting algorithm project that sorts a stack of integers using a limited set of operations, optimized for the minimum number of moves.
 
-## 🎯 Project Overview
+[![42 School](https://img.shields.io/badge/School-000000?style=for-the-badge&logo=42&logoColor=white)](https://42.fr)
+[![Language](https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![Norminette](https://img.shields.io/badge/Norminette-passing-success?style=for-the-badge)](https://github.com/42School/norminette)
+![Grade](https://img.shields.io/badge/Grade-125%2F100-success?style=for-the-badge)
 
-**Push_swap** is a 42 School project that challenges you to sort data on a stack with a limited set of instructions, using the lowest possible number of operations. The project consists of two programs:
-- `push_swap`: Outputs the optimal sequence of operations to sort the stack
-- `checker`: Validates whether a given sequence of operations correctly sorts the stack
-
-![Image](https://github.com/user-attachments/assets/96ee932f-6443-4aa4-8272-b693aece4511)
+</div>
 
 ## 📋 Table of Contents
+
+- [About](#-about)
 - [Features](#-features)
 - [Algorithm](#-algorithm)
 - [Installation](#-installation)
@@ -21,6 +24,14 @@ A sorting algorithm project that sorts a stack of integers using a limited set o
 - [Error Handling](#️-error-handling)
 - [Make Commands](#️-make-commands)
 - [Author](#-author)
+
+## 🎯 About
+
+**Push_swap** is a 42 School project that challenges you to sort data on a stack with a limited set of instructions, using the lowest possible number of operations. The project consists of two programs:
+- `push_swap`: Outputs the optimal sequence of operations to sort the stack
+- `checker`: Validates whether a given sequence of operations correctly sorts the stack
+
+![Image](https://github.com/user-attachments/assets/96ee932f-6443-4aa4-8272-b693aece4511)
 
 ## ✨ Features
 

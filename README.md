@@ -33,7 +33,7 @@
 
 ## 🎯 About
 
-**Push_swap** is a 42 School project that challenges you to sort data on a stack with a limited set of instructions, using the lowest possible number of operations. The project consists of two programs:
+**Push_swap** is a 42 School project that challenges you to sort data on a stack with a limited set of instructions, using the lowest possible number of operations. Working with two stacks (A and B), the project consists of two programs:
 - `push_swap`: Outputs the optimal sequence of operations to sort the stack
 - `checker`: Validates whether a given sequence of operations correctly sorts the stack
 

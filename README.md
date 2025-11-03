@@ -11,6 +11,8 @@
 
 </div>
 
+---
+
 ## 📋 Table of Contents
 
 - [About](#-about)
@@ -25,6 +27,8 @@
 - [Make Commands](#️-make-commands)
 - [Author](#-author)
 
+---
+
 ## 🎯 About
 
 **Push_swap** is a 42 School project that challenges you to sort data on a stack with a limited set of instructions, using the lowest possible number of operations. The project consists of two programs:
@@ -32,6 +36,8 @@
 - `checker`: Validates whether a given sequence of operations correctly sorts the stack
 
 ![Image](https://github.com/user-attachments/assets/96ee932f-6443-4aa4-8272-b693aece4511)
+
+---
 
 ## ✨ Features
 
@@ -41,6 +47,8 @@
 - **Checker program** to validate operation sequences
 - **Custom ft_printf** implementation included
 - **Memory leak free** - proper cleanup of allocated resources
+
+---
 
 ## 🧮 Algorithm
 
@@ -62,6 +70,8 @@ The sorting strategy varies based on the stack size:
 - Push back to stack A in descending order
 - Optimizations for reverse rotations and smart positioning
 
+---
+
 ## 🔧 Installation
 
 ```bash
@@ -77,6 +87,8 @@ make
 
 ### Compilation Flags
 The project is compiled with: `-Wall -Wextra -Werror`
+
+---
 
 ## 🚀 Usage
 
@@ -118,6 +130,8 @@ pa
 # Output: OK or KO
 ```
 
+---
+
 ## 🎮 Available Operations
 
 | Operation | Description |
@@ -133,6 +147,8 @@ pa
 | `rra` | Reverse rotate stack A (last element becomes first) |
 | `rrb` | Reverse rotate stack B |
 | `rrr` | `rra` and `rrb` at the same time |
+
+---
 
 ## 📂 Project Structure
 
@@ -169,6 +185,8 @@ push_swap/
 └── ft_printf/                 # Custom printf implementation
 ```
 
+---
+
 ## 📊 Performance
 
 Expected number of operations for random lists:
@@ -182,6 +200,8 @@ Expected number of operations for random lists:
 
 *Performance may vary based on the specific numbers and their initial order.*
 
+---
+
 ## ⚠️ Error Handling
 
 The program handles various error cases:
@@ -192,6 +212,8 @@ The program handles various error cases:
 
 Error output: `Error\n` to stderr
 
+---
+
 ## 🛠️ Make Commands
 
 ```bash
@@ -200,6 +222,8 @@ make clean    # Remove object files
 make fclean   # Remove object files and executables
 make re       # Recompile everything
 ```
+
+---
 
 ## 🧪 Testing Examples
 
@@ -217,11 +241,15 @@ ARG="4 67 3 87 23 ..."; ./push_swap $ARG | wc -l
 ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker $ARG
 ```
 
+---
+
 ## 👨‍💻 Author
 
 **Aleksandre Davitashvili** (Adavitas) - *42 Student*
 
 [![GitHub](https://img.shields.io/badge/GitHub-Adavitas-181717?style=flat&logo=github)](https://github.com/Adavitas)
+
+---
 
 ## 📝 License
 

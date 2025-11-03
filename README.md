@@ -5,7 +5,7 @@
 ### *A sorting algorithm project that sorts a stack of integers using a limited set of operations, optimized for the minimum number of moves.*
 
 [![42 School](https://img.shields.io/badge/School-000000?style=for-the-badge&logo=42&logoColor=white)](https://42.fr)
-[![Language](https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![Language](https://img.shields.io/badge/Language-C-blue?style=for-the-badge)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![Norminette](https://img.shields.io/badge/Norminette-passing-success?style=for-the-badge)](https://github.com/42School/norminette)
 ![Grade](https://img.shields.io/badge/Grade-125%2F100-success?style=for-the-badge)
 

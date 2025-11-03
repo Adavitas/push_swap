@@ -2,7 +2,7 @@
 
 # 📚 Push_swap
 
-A sorting algorithm project that sorts a stack of integers using a limited set of operations, optimized for the minimum number of moves.
+### *A sorting algorithm project that sorts a stack of integers using a limited set of operations, optimized for the minimum number of moves.*
 
 [![42 School](https://img.shields.io/badge/School-000000?style=for-the-badge&logo=42&logoColor=white)](https://42.fr)
 [![Language](https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))

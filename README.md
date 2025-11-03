@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📚 Push_swap
+# 🔢 Push Swap
 
 ### *A sorting algorithm project that sorts a stack of integers using a limited set of operations, optimized for the minimum number of moves.*
 
@@ -156,14 +156,14 @@ pa
 
 ```
 push_swap/
-├── Makefile                    # Build configuration
-├── includes/                   # Header files
+├── 📄 Makefile                    # Build configuration
+├── 📂 includes/                   # Header files
 │   ├── push_swap.h            # Main header
 │   ├── checker.h              # Checker header
 │   ├── utils.h                # Utilities header
 │   └── ft_printf.h            # Printf header
-├── src/
-│   ├── push_swap/             # Main program source
+├── 📂 src/
+│   ├── 📂 push_swap/             # Main program source
 │   │   ├── push_swap.c        # Entry point
 │   │   ├── ft_sort_algo.c     # Main sorting algorithm
 │   │   ├── ft_sort_small.c    # Small stack optimizations
@@ -173,18 +173,18 @@ push_swap/
 │   │   ├── ft_operations_vol1.c # Operations (sa, sb, pa, pb)
 │   │   ├── ft_operations_vol2.c # Operations (ra, rb, rra, rrb)
 │   │   └── ft_operations_vol3.c # Base operations
-│   └── checker/               # Checker program source
+│   └── 📂 checker/               # Checker program source
 │       ├── checker.c          # Checker entry point
 │       ├── ft_operations_check.c # Operation validation
 │       ├── get_next_line.c    # Read operations
 │       └── get_next_line_utils.c
-├── utils/                     # Utility functions
+├── 📂 utils/                     # Utility functions
 │   ├── ft_check_err.c         # Error checking
 │   ├── ft_lib_utils.c         # Library utilities
 │   ├── ft_node.c              # Stack node operations
 │   ├── ft_split.c             # String splitting
 │   └── ft_utilis.c            # General utilities
-└── ft_printf/                 # Custom printf implementation
+└── 📂 ft_printf/                 # Custom printf implementation
 ```
 
 ---

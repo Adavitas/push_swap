@@ -25,7 +25,9 @@
 - [Performance](#-performance)
 - [Error Handling](#️-error-handling)
 - [Make Commands](#️-make-commands)
+- [Testing Examples](#-testing-examples)
 - [Author](#-author)
+- [License](#-license)
 
 ---
 
